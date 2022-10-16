@@ -23,5 +23,7 @@ To create a production version of your app:
 ```bash
 npm run build
 ```
-
-You can preview the production build with `npm run preview`.
+You can also run a preview of your production build:
+```bash
+npm run preview
+```
