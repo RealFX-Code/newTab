@@ -1,18 +1,9 @@
-# create-svelte
+# newTab
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+My new tab page, written in svelte, with SSR and all that good stuff!
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+This is opensource so you can add to it and change whatever you'd like.
+Just know that you're limited to 4 cards. but subpages aren't too hard to add, considering you know svelte.js.
 
 ## Developing
 
@@ -34,5 +25,3 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
