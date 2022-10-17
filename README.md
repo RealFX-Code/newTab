@@ -36,6 +36,4 @@ npm run preview
 ```
 
 Your production hosting possibilities are limited, since SvelteKit uses SSR.
-Some options I know work are:
-    - CloudFlare Pages
-    - Vercel
+Some options I know work are: CloudFlare Pages, and Vercel
