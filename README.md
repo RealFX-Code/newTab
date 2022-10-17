@@ -1,5 +1,7 @@
 # newTab
 
+**CURRENTLY IT'S THE SVELTE.JS DEFAULT TEMPLATE, WHEN I GET NEWTAB WORKING I'LL COMMIT THE WORKING VERSION!**
+
 My new tab page, written in svelte, with SSR and all that good stuff!
 
 This is opensource so you can add to it and change whatever you'd like.
