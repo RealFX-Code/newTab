@@ -5,25 +5,37 @@ My new tab page, written in svelte, with SSR and all that good stuff!
 This is opensource so you can add to it and change whatever you'd like.
 Just know that you're limited to 4 cards. but subpages aren't too hard to add, considering you know svelte.js.
 
-## Developing
+## Running
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+To install all dependencies:
 
 ```bash
-npm run dev
+npm i
+```
 
-# or start the server and open the app in a new browser tab
+Then you're ready to run your development version locally:
+
+```bash
+# This starts a development server and opens it in a browser.
 npm run dev -- --open
+
+# To run the development server open to lan:
+npm run dev -- --host
 ```
 
 ## Building
 
-To create a production version of your app:
+To create a production version of the project:
 
 ```bash
 npm run build
 ```
-You can also run a preview of your production build:
+To locally host your production build run:
 ```bash
 npm run preview
 ```
+
+Your production hosting possibilities are limited, since SvelteKit uses SSR.
+Some options I know work are:
+    - CloudFlare Pages
+    - Vercel
