@@ -66,3 +66,5 @@ And the scripts analize and lint your code before running. Mostly just formattin
 # To run prod environment (does not include live reload)
 ./run_prod.sh
 ```
+
+rx (c) 2022
