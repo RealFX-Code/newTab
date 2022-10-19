@@ -1,5 +1,5 @@
 <script>
-	import Header from './Header.svelte';
+	import Header from './templates/Header.svelte';
 	import './styles.css';
 </script>
 
@@ -11,11 +11,15 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>Visit <a href="https://rlfx.pages.dev">my prounouns.page</a> to see some info about me!</p>
 	</footer>
 </div>
 
 <style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
 	.app {
 		display: flex;
 		flex-direction: column;
@@ -28,7 +32,6 @@
 		flex-direction: column;
 		padding: 1rem;
 		width: 100%;
-		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}

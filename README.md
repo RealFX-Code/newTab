@@ -7,12 +7,12 @@
     - [Building production version](#building-production-version)
     - [Run with scripts](#run-with-scripts)
 
-**CURRENTLY IT'S THE SVELTE.JS DEFAULT TEMPLATE, WHEN I GET NEWTAB WORKING I'LL COMMIT THE WORKING VERSION!**
-
 My new tab page, written in svelte, with SSR and all that good stuff!
 
 This is opensource so you can add to it and change whatever you'd like.
 Just know that you're limited to 4 cards. but subpages aren't too hard to add, considering you know svelte.js.
+
+I know the developer resources looks bad, I'm working on it.
 
 ## Running
 
