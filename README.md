@@ -2,6 +2,7 @@
 
 - [newTab](#newtab)
   - [Publicly hosted?](#publicly-hosted)
+    - [Hosting it yourself](#hosting-it-yourself)
   - [Running](#running)
     - [Running with cli](#running-with-cli)
       - [Running with npm](#running-with-npm)
@@ -17,7 +18,12 @@ I know the developer resources looks bad, I'm working on it.
 
 ## Publicly hosted?
 
-Yes! it's hosted by me on Cloudflare Pages, at: https://newtab-2zt.pages.dev/
+Yes! it's hosted by me on Cloudflare Pages, at: <https://newtab-2zt.pages.dev/>
+
+### Hosting it yourself
+
+You're allowed to host it yourself, aslong as you know how to host a sveltekit app,
+When you host the app you are NOT allowed to take credit for the app yourself.
 
 ## Running
 
