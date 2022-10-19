@@ -1,6 +1,7 @@
 # newTab
 
 - [newTab](#newtab)
+  - [Publicly hosted?](#publicly-hosted)
   - [Running](#running)
     - [Running with cli](#running-with-cli)
       - [Running with npm](#running-with-npm)
@@ -13,6 +14,10 @@ This is opensource so you can add to it and change whatever you'd like.
 Just know that you're limited to 4 cards. but subpages aren't too hard to add, considering you know svelte.js.
 
 I know the developer resources looks bad, I'm working on it.
+
+## Publicly hosted?
+
+Yes! it's hosted by me on Cloudflare Pages, at: https://newtab-2zt.pages.dev/
 
 ## Running
 
