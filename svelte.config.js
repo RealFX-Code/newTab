@@ -1,5 +1,5 @@
 // import adapter from '@sveltejs/adapter-auto';
-// 
+//
 // /** @type {import('@sveltejs/kit').Config} */
 // const config = {
 //	 kit: {
@@ -12,7 +12,7 @@
 import adapter from '@sveltejs/adapter-cloudflare';
 
 export default {
-  kit: {
-    adapter: adapter()
-  }
+	kit: {
+		adapter: adapter()
+	}
 };
