@@ -4,7 +4,7 @@
 
 <svelte:head>
 	<title>cards</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="NewTab page!" />
 </svelte:head>
 
 <section>
@@ -28,10 +28,10 @@
 				<div class="container subitle" />
 			</div>
 		</a>
-		<a class="card-link" href="/dev">
+		<a class="card-link" href="https://www.youtube.com">
 			<div class="card">
-				<img src="logos/Dev-logo.png" alt="Dev" width="100%" />
-				<div class="container subitle" />
+				<img src="logos/Youtube-logo.png" alt="YouTube" width="100%" />
+				<div class="container subtitle" />
 			</div>
 		</a>
 	</div>
