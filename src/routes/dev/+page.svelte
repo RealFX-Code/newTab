@@ -20,18 +20,18 @@
 
 <style>
 	div.DevResources h1 {
-		font-size: 9rem;
+		font-size: 3rem;
 		font-weight: bolder;
 	}
 	div.DevResources {
 		text-align: center;
-		font-size: 4rem;
+		font-size: 2rem;
 	}
 	div.DevResources a {
 		transition: all ease 0.5s;
 	}
 	div.DevResources a:hover {
 		letter-spacing: 0.05rem;
-		font-size: 4.5rem;
+		font-size: 2.25rem;
 	}
 </style>

@@ -1,5 +1,8 @@
 <script>
 	import './styles.css';
+
+	// TODO: make it generate the cards with JS, from a list of links/names...
+	// TODO: also figure out how to do the step above
 </script>
 
 <svelte:head>
