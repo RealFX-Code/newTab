@@ -1,8 +1,17 @@
 <script>
 	import './styles.css';
 
-	// TODO: make it generate the cards with JS, from a list of links/names...
-	// TODO: also figure out how to do the step above
+	let links = {
+		'1.link': 'https://soundcloud.com/discover',
+		'1.label': 'Soundcloud',
+		'2.link': 'https://google.com',
+		'2.label': 'Google',
+		'3.link': 'https://github.com/RealFX-Code/',
+		'3.label': 'Github',
+		'4.link': 'https://Youtube.com',
+		'4.label': 'Youtube'
+	};
+
 </script>
 
 <svelte:head>
@@ -13,28 +22,28 @@
 <section>
 	<h1>Welcome, Ready to browse the net?</h1>
 	<div class="cardContainer">
-		<a class="card-link" href="https://soundcloud.com/discover">
+		<a class="card-link" href="{links['1.link']}">
 			<div class="card">
-				<img src="logos/Soundcloud-logo.png" alt="Soundcloud" width="100%" />
+				<img src="logos/{links['1.label']}-logo.png" alt="{links['1.label']}" width="100%" />
 				<div class="container subitle" />
 			</div>
 		</a>
-		<a class="card-link" href="https://google.com">
+		<a class="card-link" href="{links['2.link']}">
 			<div class="card">
-				<img src="logos/Google-logo.png" alt="Google" width="100%" />
+				<img src="logos/{links['2.label']}-logo.png" alt="{links['2.label']}" width="100%" />
 				<div class="container subitle" />
 			</div>
 		</a>
-		<a class="card-link" href="https://github.com/RealFX-Code/">
+		<a class="card-link" href="{links['3.link']}">
 			<div class="card">
-				<img src="logos/Github-logo.png" alt="Github" width="100%" />
+				<img src="logos/{links['3.label']}-logo.png" alt="{links['3.label']}" width="100%" />
 				<div class="container subitle" />
 			</div>
 		</a>
-		<a class="card-link" href="https://www.youtube.com">
+		<a class="card-link" href="{links['4.link']}">
 			<div class="card">
-				<img src="logos/Youtube-logo.png" alt="YouTube" width="100%" />
-				<div class="container subtitle" />
+				<img src="logos/{links['4.label']}-logo.png" alt="{links['4.label']}" width="100%" />
+				<div class="container subitle" />
 			</div>
 		</a>
 	</div>
