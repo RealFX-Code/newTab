@@ -61,9 +61,6 @@ To locally host your production build run:
 npm run preview
 ```
 
-Your production hosting possibilities are limited, since SvelteKit uses SSR.
-Some options I know work are: CloudFlare Pages, and Vercel
-
 ### Run with scripts
 
 I took the time to write some bash scripts that run the project as dev or prod respectively.
