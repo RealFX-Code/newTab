@@ -6,7 +6,7 @@
 		'1.label': 'Soundcloud',
 		'2.link': 'https://google.com',
 		'2.label': 'Google',
-		'3.link': 'https://github.com/RealFX-Code/',
+		'3.link': 'https://github.com/',
 		'3.label': 'Github',
 		'4.link': 'https://Youtube.com',
 		'4.label': 'Youtube'
