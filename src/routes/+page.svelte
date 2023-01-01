@@ -1,16 +1,24 @@
 <script>
 	import './styles.css';
 
-	let links = {
-		'1.link': 'https://soundcloud.com/discover',
-		'1.label': 'Soundcloud',
-		'2.link': 'https://google.com',
-		'2.label': 'Google',
-		'3.link': 'https://github.com/',
-		'3.label': 'Github',
-		'4.link': 'https://Youtube.com',
-		'4.label': 'Youtube'
-	};
+	const links = [
+		{
+			link: "https://soundcloud.com/",
+			label: "Soundcloud"
+		},
+		{
+			link: "https://google.com/",
+			label: "Google"
+		},
+		{
+			link: "https://github.com/",
+			label: "Github"
+		},
+		{
+			link: "https://youtube.com/",
+			label: "Youtube"
+		}
+	]
 
 </script>
 
@@ -20,32 +28,15 @@
 </svelte:head>
 
 <section>
-	<h1>Welcome, Ready to browse the net?</h1>
+	<h1>NewTab - Some links, or whatever</h1>
 	<div class="cardContainer">
-		<a class="card-link" href="{links['1.link']}">
-			<div class="card">
-				<img src="logos/{links['1.label']}-logo.png" alt="{links['1.label']}" width="100%" />
-				<div class="container subitle" />
-			</div>
-		</a>
-		<a class="card-link" href="{links['2.link']}">
-			<div class="card">
-				<img src="logos/{links['2.label']}-logo.png" alt="{links['2.label']}" width="100%" />
-				<div class="container subitle" />
-			</div>
-		</a>
-		<a class="card-link" href="{links['3.link']}">
-			<div class="card">
-				<img src="logos/{links['3.label']}-logo.png" alt="{links['3.label']}" width="100%" />
-				<div class="container subitle" />
-			</div>
-		</a>
-		<a class="card-link" href="{links['4.link']}">
-			<div class="card">
-				<img src="logos/{links['4.label']}-logo.png" alt="{links['4.label']}" width="100%" />
-				<div class="container subitle" />
-			</div>
-		</a>
+		{#each links as { link, label }}
+			<a class="card-link" href="{link}">
+				<div class="card">
+					<img src="logos/{label}-logo.png" alt="{label}" width="100%" />
+				</div>
+			</a>
+		{/each}
 	</div>
 </section>
 
@@ -73,10 +64,6 @@
 
 	.card-link:hover {
 		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-	}
-
-	.container {
-		padding: 2px 16px;
 	}
 
 	.cardContainer {
