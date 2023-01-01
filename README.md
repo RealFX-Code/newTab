@@ -18,12 +18,12 @@ I know the developer resources looks bad, I'm working on it.
 
 ## Publicly hosted?
 
-Yes! it's hosted by me on Cloudflare Pages, at: <https://newtab-2zt.pages.dev/>
+Yes! it's hosted by me on Cloudflare Pages, at: <a href="https://newtab.realfx.rocks/">newtab.realfx.rocks</a>!
 
 ### Hosting it yourself
 
-You're allowed to host it yourself, aslong as you know how to host a sveltekit app,
-When you host the app you are NOT allowed to take credit for the app yourself.
+You're allowed to host it yourself, aslong as you know how to host a sveltekit site,
+When you host this you are NOT allowed to take credit for thisyourself.
 
 ## Running
 
@@ -41,10 +41,8 @@ Then you're ready to run your development version locally:
 
 ```bash
 # This starts a development server and opens it in a browser.
+# Remove "-- --open" if you don't want it to open your browser.
 npm run dev -- --open
-
-# To run the development server open to lan:
-npm run dev -- --host
 ```
 
 ### Building production version
@@ -65,7 +63,7 @@ npm run preview
 
 I took the time to write some bash scripts that run the project as dev or prod respectively.
 
-And the scripts analize and lint your code before running. Mostly just formatting codestyle errors.
+And the scripts analyze and lint your code before running. Mostly just formatting codestyle errors.
 
 ```bash
 # To run dev environment
@@ -74,5 +72,3 @@ And the scripts analize and lint your code before running. Mostly just formattin
 # To run prod environment (does not include live reload)
 ./run_prod.sh
 ```
-
-rx (c) 2022
