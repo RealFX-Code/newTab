@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>Visit <a href="https://rlfx.pages.dev">my prounouns.page</a> to see some info about me!</p>
+		<p>Visit <a href="https://card.realfx.rocks">my card page</a> to see some info about me!</p>
 	</footer>
 </div>
 
